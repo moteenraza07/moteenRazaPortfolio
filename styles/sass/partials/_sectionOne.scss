@@ -1,0 +1,107 @@
+.introduction {
+    background-color: $primary;
+
+    .box1, .box2, .box3 {
+        margin: 0;
+        position: relative;
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+    }
+
+    .box1 {
+        background-color: yellow;
+        opacity: 0.4;
+        left: 100px;
+        top: 150px;
+        
+    }
+
+    .box2 {
+        background-color: orangered;
+        opacity: 0.3;
+        left: 1400px;
+        top: 100px;
+        
+    }
+
+    .box3 {
+        background-color: #c57b57;
+        opacity: 0.3;
+        left: 700px;
+        top: 500px;
+        
+    }
+
+    .moteenRaza {
+        display: flex;
+        flex-direction: wrap;
+        
+    }
+
+    .hey {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+
+    h1 {
+        margin: 0;
+        font-family: $primaryFont;
+        color: $secondary;
+        font-size: 5rem;
+    }
+
+    h2 {
+        color: $primary;
+        margin: 0;
+        font-size: 4.5rem;
+        -webkit-text-stroke: 2px #e4e6c3;
+    }
+
+    .memoji {
+        height: 520px;
+        width: 550px;
+        margin-left: 50px;
+        
+    }
+
+    
+    .square {
+        margin:0;
+        position: relative;
+        top: 200px;
+        right: 700px;
+        background-color: #899878;
+        transform: rotate(30deg);
+        border-radius: 20%;
+        height: 600px;
+        width: 850px;
+        
+
+        p {
+            margin: 0;
+            transform: rotate(-30deg);
+            position: relative;
+            left: 400px;
+            color: $secondary;
+            font-weight: 700;
+            font-size: 1.5rem;
+            line-height: 50px;
+            
+        }
+
+        .object, .string, .integer {
+            color: black;
+            font-weight: 700;
+        }
+
+        
+       
+    }
+
+
+   
+    
+}
