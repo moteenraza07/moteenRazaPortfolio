@@ -285,11 +285,15 @@ html {
 }
 
 body {
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: "Source Code Pro", monospace;
 }
 
-h1 {
+h1, h2 {
   font-family: "Arimo", sans-serif;
+}
+
+p {
+  font-family: "Source Code Pro", monospace;
 }
 
 .wrapper {
@@ -363,43 +367,94 @@ header .mainMenu a {
 }
 .introduction h1 {
   margin: 0;
-  font-family: "Arimo", sans-serif;
   color: white;
   font-size: 5rem;
 }
 .introduction h2 {
   color: #121113;
   margin: 0;
-  font-size: 4.5rem;
+  font-size: 4rem;
   -webkit-text-stroke: 2px #e4e6c3;
+}
+.introduction h2:hover span {
+  position: relative;
+}
+.introduction h2:hover span::after {
+  content: "";
+  position: absolute;
+  height: 110%;
+  width: 100%;
+  background-color: #121113;
+  border-left: 2px solid white;
+  left: 0;
+  visibility: visible;
+  -webkit-animation: typing 3.5s steps(25) infinite;
+          animation: typing 3.5s steps(25) infinite;
+}
+@-webkit-keyframes typing {
+  100% {
+    left: 100%;
+    margin: 0 -35px 0 35px;
+  }
+}
+@keyframes typing {
+  100% {
+    left: 100%;
+    margin: 0 -35px 0 35px;
+  }
 }
 .introduction .memoji {
   height: 520px;
   width: 550px;
   margin-left: 50px;
-}
-.introduction .square {
-  margin: 0;
   position: relative;
-  top: 200px;
-  right: 700px;
+}
+
+.sectionTwo {
+  margin: 0;
+  background-color: #fefae0;
+}
+.sectionTwo .aboutMe {
+  display: flex;
+  justify-content: space-between;
+}
+.sectionTwo .aboutMe .square {
+  margin-top: 40px;
+  margin-right: 80px;
   background-color: #899878;
   transform: rotate(30deg);
   border-radius: 20%;
-  height: 600px;
-  width: 850px;
+  height: 400px;
+  width: 1070px;
 }
-.introduction .square p {
+.sectionTwo .aboutMe .square .details {
   margin: 0;
   transform: rotate(-30deg);
-  position: relative;
-  left: 400px;
+  text-align: center;
+  padding-top: 30px;
+  padding-right: 30px;
+  left: 110px;
   color: white;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 50px;
 }
-.introduction .square .object, .introduction .square .string, .introduction .square .integer {
-  color: black;
+.sectionTwo .aboutMe .square .object, .sectionTwo .aboutMe .square .string, .sectionTwo .aboutMe .square .integer {
+  color: #121113;
   font-weight: 700;
+}
+.sectionTwo .aboutMe .getToKnowMe {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.sectionTwo .aboutMe .getToKnowMe .info {
+  font-size: 4rem;
+  font-family: "Arimo", sans-serif;
+  color: #121113;
+  text-align: start;
+}
+.sectionTwo .aboutMe .getToKnowMe .paragraph {
+  width: 85%;
+  font-size: 1.2rem;
 }/*# sourceMappingURL=styles.css.map */

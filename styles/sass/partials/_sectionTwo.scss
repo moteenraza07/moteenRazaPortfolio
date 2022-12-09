@@ -1,0 +1,66 @@
+.sectionTwo {
+    margin: 0;
+    background-color: #fefae0;
+
+    .aboutMe {
+        display: flex;
+        justify-content: space-between;
+
+    .square {
+        margin-top: 40px;
+        margin-right: 80px;
+        background-color: #899878;
+        transform: rotate(30deg);
+        border-radius: 20%;
+        height: 400px;
+        width: 1070px;
+        
+
+        .details {
+            margin: 0;
+            transform: rotate(-30deg);
+            text-align: center;
+            padding-top: 30px;
+            padding-right: 30px;
+    
+            left: 110px;
+            color: $secondary;
+            font-weight: 700;
+            font-size: 1.2rem;
+            line-height: 50px;
+            
+        }
+
+        .object, .string, .integer {
+            color: $primary;
+            font-weight: 700;
+        }
+
+    }
+
+    .getToKnowMe {
+
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+
+        .info {
+            font-size: 4rem;
+            font-family:$primaryFont;
+            color: $primary;
+            text-align: start;
+            
+            }
+
+        .paragraph {
+                width: 85%;
+                font-size: 1.2rem;
+                
+                
+            }
+
+    
+        }
+    }
+
+}

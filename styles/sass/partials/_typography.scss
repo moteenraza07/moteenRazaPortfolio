@@ -6,6 +6,10 @@ body {
     font-family: $secondaryFont;
 }
 
-h1 {
+h1, h2 {
     font-family: $primaryFont;
+}
+
+p {
+    font-family: $secondaryFont;
 }

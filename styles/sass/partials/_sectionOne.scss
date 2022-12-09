@@ -48,7 +48,6 @@
 
     h1 {
         margin: 0;
-        font-family: $primaryFont;
         color: $secondary;
         font-size: 5rem;
     }
@@ -56,52 +55,47 @@
     h2 {
         color: $primary;
         margin: 0;
-        font-size: 4.5rem;
+        font-size: 4rem;
         -webkit-text-stroke: 2px #e4e6c3;
+        
+        
     }
 
+    h2:hover span {
+        position: relative;
+        
+    }
+
+
+
+    h2:hover span::after {
+        content: "";
+        position: absolute;
+        height: 110%;
+        width: 100%;
+        background-color: $primary;
+        border-left: 2px solid $secondary;
+        left: 0;
+        visibility: visible;
+        animation: typing 3.5s steps(25) infinite;
+    // this code was used from a youtube channel named CodingNepal
+    }
+
+    @keyframes typing {
+        100% {
+            left: 100%;
+            margin: 0 -35px 0 35px;
+            // this code was used from a youtube channel named CodingNepal
+        }
+
+      
+    }
+   
     .memoji {
         height: 520px;
         width: 550px;
         margin-left: 50px;
-        
-    }
-
-    
-    .square {
-        margin:0;
         position: relative;
-        top: 200px;
-        right: 700px;
-        background-color: #899878;
-        transform: rotate(30deg);
-        border-radius: 20%;
-        height: 600px;
-        width: 850px;
         
-
-        p {
-            margin: 0;
-            transform: rotate(-30deg);
-            position: relative;
-            left: 400px;
-            color: $secondary;
-            font-weight: 700;
-            font-size: 1.5rem;
-            line-height: 50px;
-            
-        }
-
-        .object, .string, .integer {
-            color: black;
-            font-weight: 700;
-        }
-
-        
-       
     }
-
-
-   
-    
 }
