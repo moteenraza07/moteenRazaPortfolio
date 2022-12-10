@@ -292,6 +292,14 @@ h1, h2 {
   font-family: "Arimo", sans-serif;
 }
 
+h2 {
+  font-size: 4rem;
+}
+
+a {
+  text-decoration: none;
+}
+
 p {
   font-family: "Source Code Pro", monospace;
 }
@@ -323,7 +331,6 @@ header .mainMenu {
   padding-top: 30px;
 }
 header .mainMenu a {
-  text-decoration: none;
   color: white;
   font-size: 1.5rem;
 }
@@ -373,7 +380,6 @@ header .mainMenu a {
 .introduction h2 {
   color: #121113;
   margin: 0;
-  font-size: 4rem;
   -webkit-text-stroke: 2px #e4e6c3;
 }
 .introduction h2:hover span {
@@ -419,21 +425,20 @@ header .mainMenu a {
   justify-content: space-between;
 }
 .sectionTwo .aboutMe .square {
-  margin-top: 40px;
-  margin-right: 80px;
-  background-color: #899878;
-  transform: rotate(30deg);
+  margin-top: 20px;
+  margin-right: 130px;
+  background-color: #656d4a;
+  transform: rotate(50deg);
   border-radius: 20%;
   height: 400px;
-  width: 1070px;
+  width: 1270px;
 }
 .sectionTwo .aboutMe .square .details {
   margin: 0;
-  transform: rotate(-30deg);
-  text-align: center;
+  transform: rotate(-50deg);
+  text-align: start;
   padding-top: 30px;
-  padding-right: 30px;
-  left: 110px;
+  padding-left: 30px;
   color: white;
   font-weight: 700;
   font-size: 1.2rem;
@@ -449,7 +454,6 @@ header .mainMenu a {
   text-align: start;
 }
 .sectionTwo .aboutMe .getToKnowMe .info {
-  font-size: 4rem;
   font-family: "Arimo", sans-serif;
   color: #121113;
   text-align: start;
@@ -457,4 +461,30 @@ header .mainMenu a {
 .sectionTwo .aboutMe .getToKnowMe .paragraph {
   width: 85%;
   font-size: 1.2rem;
+}
+
+.sectionThree {
+  background-color: #9e2a2b;
+  padding: 60px;
+}
+.sectionThree .skills {
+  color: white;
+  text-align: center;
+}
+.sectionThree .skillContainer {
+  display: flex;
+  justify-content: space-around;
+  font-size: 5rem;
+}
+.sectionThree a {
+  color: #fefae0;
+}
+
+.sectionFour {
+  background-color: #121113;
+}
+.sectionFour h2 {
+  margin: 0;
+  text-align: center;
+  color: white;
 }/*# sourceMappingURL=styles.css.map */

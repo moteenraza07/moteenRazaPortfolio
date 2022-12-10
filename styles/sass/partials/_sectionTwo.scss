@@ -7,23 +7,22 @@
         justify-content: space-between;
 
     .square {
-        margin-top: 40px;
-        margin-right: 80px;
-        background-color: #899878;
-        transform: rotate(30deg);
+        margin-top: 20px;
+        margin-right: 130px;
+        background-color: #656d4a;
+        transform: rotate(50deg);
         border-radius: 20%;
         height: 400px;
-        width: 1070px;
+        width: 1270px;
         
 
         .details {
             margin: 0;
-            transform: rotate(-30deg);
-            text-align: center;
+            transform: rotate(-50deg);
+            text-align: start;
             padding-top: 30px;
-            padding-right: 30px;
-    
-            left: 110px;
+            padding-left: 30px;
+            
             color: $secondary;
             font-weight: 700;
             font-size: 1.2rem;
@@ -45,7 +44,6 @@
         text-align: start;
 
         .info {
-            font-size: 4rem;
             font-family:$primaryFont;
             color: $primary;
             text-align: start;
