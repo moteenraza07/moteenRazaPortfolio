@@ -1,0 +1,133 @@
+.sectionFive {
+    background-color: #fefae0;
+    margin: 0;
+
+    h2 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .flexForm {
+        display: flex;
+        justify-content: space-around;
+    }
+
+        .textContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-top: 50px;
+            width: 20%;
+            margin-left: 300px;
+            
+           
+        }
+
+
+        .getInTouch {
+            width: 40%;
+            margin-top: 50px;
+            line-height: 32px;
+        
+        }
+
+        
+
+        #name{
+            margin-bottom: 10px;
+            height: 45px;
+            border: 2px solid $primary;
+            font-family: $secondaryFont;
+            
+        }
+
+        #emailAddress {
+            margin-bottom: 10px;
+            height: 45px;
+            border: 2px solid $primary;
+            font-family: $secondaryFont;
+        }
+
+        .flexCommentForm {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .commentForm {
+            display: flex;
+            flex-direction: column;
+            align-items:flex-start;
+            width: 25%;
+            margin-left: 370px;
+            align-items: center;
+            
+
+            #comment {
+                border: 2px solid $primary;
+                font-family: $secondaryFont;
+            }
+
+            .submitButton {
+                border: none;
+                background-color: $primary;
+                margin-right: 20px;
+                cursor: pointer;
+                height: 50px;
+                font-size: 1.5rem;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                -webkit-transition-duration: 0.3s;
+                transition-duration: 0.3s;
+                -webkit-transition-property: box-shadow, transform;
+                transition-property: box-shadow, transform;
+                color: $secondary;
+                font-family: $secondaryFont;
+                margin-top: 10px;
+                width: 40%;
+                
+                
+
+            }
+
+            .submitButton:hover {
+                box-shadow: 5px 5px 18px rgba(255, 254, 254, 0.9);
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+        
+            }
+
+
+        }
+
+        .followMe {
+            display: flex;
+            width: 40%;
+            flex-direction: column;
+            margin-top: 60px;
+
+            h4 {
+                font-size: 2rem;
+            }
+        
+        }
+
+        .followIcons {
+            display: flex;
+            justify-content: space-around;
+            margin-right: 370px;
+
+            li {
+                list-style: none;
+            }
+
+            i {
+                font-size: 50px;
+            }
+        }
+
+
+        
+
+
+
+}
