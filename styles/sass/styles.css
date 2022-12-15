@@ -426,19 +426,19 @@ header .mainMenu a {
 }
 .sectionTwo .aboutMe .square {
   margin-top: 20px;
-  margin-right: 130px;
+  margin-right: 100px;
   background-color: #656d4a;
-  transform: rotate(50deg);
+  transform: rotate(25deg);
   border-radius: 20%;
-  height: 400px;
-  width: 1270px;
+  height: 410px;
+  width: 1770px;
 }
 .sectionTwo .aboutMe .square .details {
   margin: 0;
-  transform: rotate(-50deg);
+  transform: rotate(-25deg);
   text-align: start;
   padding-top: 30px;
-  padding-left: 30px;
+  padding-left: 60px;
   color: white;
   font-weight: 700;
   font-size: 1.2rem;
@@ -451,16 +451,17 @@ header .mainMenu a {
 .sectionTwo .aboutMe .getToKnowMe {
   display: flex;
   flex-direction: column;
-  text-align: start;
 }
 .sectionTwo .aboutMe .getToKnowMe .info {
   font-family: "Arimo", sans-serif;
   color: #121113;
   text-align: start;
+  margin-left: 400px;
 }
 .sectionTwo .aboutMe .getToKnowMe .paragraph {
   width: 85%;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  padding-bottom: 30px;
 }
 
 .sectionThree {
@@ -593,6 +594,7 @@ header .mainMenu a {
 }
 .sectionFive h2 {
   margin: 0;
+  padding-top: 50px;
   text-align: center;
 }
 .sectionFive .flexForm {
@@ -679,4 +681,23 @@ header .mainMenu a {
 }
 .sectionFive .followIcons i {
   font-size: 50px;
+}
+.sectionFive h3 {
+  margin: 0;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.sectionFive h3 a {
+  color: #121113;
+}
+
+footer {
+  background-color: #121113;
+}
+footer h4 {
+  margin: 0;
+  padding: 20px;
+  color: white;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
