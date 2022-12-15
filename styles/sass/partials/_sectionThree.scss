@@ -1,12 +1,22 @@
 .sectionThree {
-   background-color: #9e2a2b;
-//    opacity: 0.9;
+   background-color: $primary;
    padding: 60px;
    
 
    .skills {
     color: $secondary;
     text-align: center;
+   }
+
+   .skillShow {
+      transform: translateY(100px);
+      opacity: 0;
+      transition: 2s all ease;
+   }
+
+   .skillShow.active {
+      transform: translateY(0);
+      opacity: 1;
    }
 
    .skillContainer {

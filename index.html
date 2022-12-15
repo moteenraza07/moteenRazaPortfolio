@@ -16,7 +16,8 @@
         </style>
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-          
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
         
     <style>
         .material-symbols-outlined {
@@ -64,7 +65,7 @@
                     <h1>Moteen Raza,</h1>
                     <h2><span>a Web Developer</span></h2>
                 </div>
-                <img class="memoji" src="./assets/memoji.png.png">
+                <img class="memoji" src="./assets/memoji.png.png" alt="">
             </div>
                 
             </div>
@@ -73,7 +74,7 @@
         </section>
 
         <section id="about" class="sectionTwo">
-            <div class="aboutMe">
+            <div class="aboutMe" data-aos="zoom-in" data-aos-duration="1000">
                 <div class="square">
                     <p class="details">const <span class="object">aboutMe</span> {<br>
                     firstName: <span class="string">"Moteen"</span><br>
@@ -99,41 +100,101 @@
 
         </section>
 
-        <section class="sectionThree">
-            <h2 class="skills">Skills</h2>
-            <ul class="skillContainer">
-                <li><a href="">
-                    
-            <i class="devicon-html5-plain-wordmark"></i>
+        <section class="sectionThree" id="skills">
+            
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h2 class="skills">Skills</h2>
+                <ul class="skillContainer">
+                    <li><a href="">
+                        
+            <i class="devicon-html5-plain-wordmark colored"></i>
+                    </a></li>
+
+                    <li><a href="">
+                        <i class="devicon-css3-plain-wordmark colored"></i>
+                    </a></li>
+
+                    <li><a href="">
+                        
+                        <i class="devicon-sass-original colored"></i>
           
-                  </a></li>
-                <li><a href="">
-                    <i class="devicon-css3-plain-wordmark colored"></i>
-                  </a></li>
-                <li><a href="">
-                    
-                <i class="devicon-sass-original"></i>
-          
-                  </a></li>
-                <li><a href="">
-                    <i class="devicon-javascript-plain colored"></i>
-                  </a></li>
-                <li><a href="">
-                    <i class="devicon-react-original-wordmark colored"></i>
-                  </a></li>
-                <li><a href="">
-                    <i class="devicon-github-original-wordmark"></i>
-                  </a></li>
-                <li><a href="">
-                    <i class="devicon-firebase-plain-wordmark colored"></i>
-                  </a></li>
-            </ul>
+                    </a></li>
+
+                    <li><a href="">
+                        <i class="devicon-javascript-plain colored"></i>
+                    </a></li>
+
+                    <li><a href="">
+                        <i class="devicon-react-original-wordmark colored"></i>
+                    </a></li>
+
+                    <li><a href="">
+                        <i class="devicon-github-original-wordmark"></i>
+                    </a></li>
+
+                    <li><a href="">
+                        <i class="devicon-firebase-plain-wordmark colored"></i>
+                    </a></li>
+
+                </ul>
+            </div>
         </section>
 
-        <section class="sectionFour">
-            <h2>Projects</h2>
+        <section class="sectionFour" id="projects">
+            <div data-aos="slide-down" data-aos-duration="1200" >
+                <h2>Projects</h2>
+            </div>
+            <div class="projectOneContainer" data-aos="slide-left" data-aos-duration="1200">
+                <img src="./assets/sophieProject2.png" alt="">
+                <div class="allAboutSophie">
+                    <h3>It's All About Sophie</h3>
+                    <p>A multi-page responsive website created using design files and template.</p>
+                    <button class="clickHere"><a href="https://moteen-project-1.netlify.app">Live Site</a></button>
+                    <button class="clickHere"><a href="https://github.com/moteenraza07/moteenRazaProject1">GitHub</a></button>
+                    <h4 class="madeUsingTitle">Made Using</h4>
+                    <div class="madeUsingIcons">
+                        <li><i class="devicon-html5-plain-wordmark colored"></i></li>
+                        <li>
+                            <i class="devicon-css3-plain-wordmark colored"></i>
+                          </li>
+                        <li><i class="devicon-sass-original colored"></i></li>
+                        <li><i class="devicon-javascript-plain colored"></i></li>
+                    </div>
+                </div>
+            </div>
 
+            <div class="projectTwoContainer" data-aos="slide-right" data-aos-duration="1200">
+                
+                <div class="dadJokes">
+                    <h3>Har! Har! Dad Jokes</h3>
+                    <p>Dad jokes that never get old. A dad joke website where it generates random jokes that fetches from 
+                        an Api, once the button is clicked. </p>
+                    <button class="clickHere"><a href="https://moteen-project-1.netlify.app">Live Site</a></button>
+                    <button class="clickHere"><a href="https://github.com/moteenraza07/moteenRazaProject1">GitHub</a></button>
+                    <h4 class="madeUsingTitle">Made Using</h4>
+                    <div class="madeUsingIcons">
+                        <li><i class="devicon-html5-plain-wordmark"></i></li>
+                        <li><i class="devicon-css3-plain-wordmark"></i></li>
+                        <li><i class="devicon-sass-original"></i></li>
+                        <li><i class="devicon-javascript-plain colored"></i></li>
+                        
+                    </div>
+                    
+                </div>
+                <img src="./assets/dadJokes.png" alt="">  
         </section>
+
+        <secction class="sectionfive" id="#contact">
+            <h2>Let's get in touch</h2>
+        </secction>
     </main>
+
+    
 </body>
+
+<script src="./script.js">
+
+</script>
+
+<script src="bower_components/aos/dist/aos.js"></script>
 </html>

@@ -1,9 +1,133 @@
 .sectionFour {
-    background-color: $primary;
+    background-color: $secondary;
+    margin-top: 100px;
 
     h2 {
         margin: 0;
         text-align: center;
+        color: $primary;
+    }
+
+    .projectOneContainer {
+        display: flex;
+        margin-top: 50px;
+        background: #606c38;
+        
+        
+    }
+
+    
+    img {
+        height: 300px;
+        width: 550px;
+        margin: 30px 150px;
+        border: 10px solid black;
+        border-radius: 25px;
+
+        
+    }
+
+    .allAboutSophie {
+        width: 30%;
+
+        h3 {
+            color: $secondary;
+            font-family: $primaryFont;
+            font-size: 2rem;
+            margin-top: 5px;
+            margin-bottom: 0px;
+        }
+
+        p {
+            margin: 2;
+        }
+
+    }
+
+    h4, p {
         color: $secondary;
     }
+
+    .clickHere {
+        border: none;
+        background-color: $primary;
+        margin-right: 20px;
+        cursor: pointer;
+        height: 50px;
+        font-size: 1.5rem;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+        a {
+            color: $secondary;
+            font-family: $secondaryFont;
+        }
+        
+    }
+
+    .clickHere:hover {
+        box-shadow: 5px 5px 18px rgba(255, 254, 254, 0.9);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+
+    }
+
+    .madeUsingTitle {
+        text-align: center;
+        width: 50%;
+        margin-top: 25px;
+        margin-left: 50px;
+    }
+
+    .madeUsingIcons {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+        margin-left: 50px;
+
+        li {
+            list-style: none;
+            
+    
+            i {
+                font-size: 50px;
+                
+            }
+        }
+
+    }
+
+    .projectTwoContainer {
+        background-color: #bc4749;
+        display: flex;
+        
+        
+        .dadJokes {
+        width: 30%;
+        margin-left: 200px;
+        margin-top: 50px;
+        
+        h3 {
+            color: $secondary;
+            font-family: $primaryFont;
+            font-size: 2rem;
+            margin-top: 5px;
+            margin-bottom: 0px;
+        }
+       
+    }
+
+    img {
+        object-fit:fill;
+        height: 400px;
+        width: 500px;
+        
+    }
+
+       
+    }
+
 }

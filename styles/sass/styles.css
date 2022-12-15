@@ -464,12 +464,21 @@ header .mainMenu a {
 }
 
 .sectionThree {
-  background-color: #9e2a2b;
+  background-color: #121113;
   padding: 60px;
 }
 .sectionThree .skills {
   color: white;
   text-align: center;
+}
+.sectionThree .skillShow {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.sectionThree .skillShow.active {
+  transform: translateY(0);
+  opacity: 1;
 }
 .sectionThree .skillContainer {
   display: flex;
@@ -481,10 +490,103 @@ header .mainMenu a {
 }
 
 .sectionFour {
-  background-color: #121113;
+  background-color: white;
+  margin-top: 100px;
 }
 .sectionFour h2 {
   margin: 0;
   text-align: center;
+  color: #121113;
+}
+.sectionFour .projectOneContainer {
+  display: flex;
+  margin-top: 50px;
+  background: #606c38;
+}
+.sectionFour img {
+  height: 300px;
+  width: 550px;
+  margin: 30px 150px;
+  border: 10px solid black;
+  border-radius: 25px;
+}
+.sectionFour .allAboutSophie {
+  width: 30%;
+}
+.sectionFour .allAboutSophie h3 {
   color: white;
+  font-family: "Arimo", sans-serif;
+  font-size: 2rem;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.sectionFour .allAboutSophie p {
+  margin: 2;
+}
+.sectionFour h4, .sectionFour p {
+  color: white;
+}
+.sectionFour .clickHere {
+  border: none;
+  background-color: #121113;
+  margin-right: 20px;
+  cursor: pointer;
+  height: 50px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition-duration: 0.3s;
+  transition-property: box-shadow, transform;
+}
+.sectionFour .clickHere a {
+  color: white;
+  font-family: "Source Code Pro", monospace;
+}
+.sectionFour .clickHere:hover {
+  box-shadow: 5px 5px 18px rgba(255, 254, 254, 0.9);
+  transform: scale(1.1);
+}
+.sectionFour .madeUsingTitle {
+  text-align: center;
+  width: 50%;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+.sectionFour .madeUsingIcons {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin-left: 50px;
+}
+.sectionFour .madeUsingIcons li {
+  list-style: none;
+}
+.sectionFour .madeUsingIcons li i {
+  font-size: 50px;
+}
+.sectionFour .projectTwoContainer {
+  background-color: #bc4749;
+  display: flex;
+}
+.sectionFour .projectTwoContainer .dadJokes {
+  width: 30%;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.sectionFour .projectTwoContainer .dadJokes h3 {
+  color: white;
+  font-family: "Arimo", sans-serif;
+  font-size: 2rem;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.sectionFour .projectTwoContainer img {
+  -o-object-fit: fill;
+     object-fit: fill;
+  height: 400px;
+  width: 500px;
+}
+
+.sectionFive {
+  background-color: #fefae0;
 }/*# sourceMappingURL=styles.css.map */
