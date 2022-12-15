@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moteen Raza</title>
+    <!--Imported all google fonts that are used for the project-->
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap" rel="stylesheet">
     <style> @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap'); </style>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
@@ -53,27 +54,29 @@
 
     <main>
         <!--Beginning of main-->
-        <section id="home" class="introduction">
+        <section id="home" class="introduction"> 
+            <!--Beginning of Section one-->
             <p class="box1"></p>
             <p class="box2"></p>
             <p class="box3"></p>
             <div class="wrapper">
-            <!--Beginning of Section one-->
-            <div class="moteenRaza">
-                <div class="hey">
-                    <h2><span>Hi There, I'm</span></h2>
-                    <h1>Moteen Raza,</h1>
-                    <h2><span>a Web Developer</span></h2>
+    
+                <div class="moteenRaza">
+                    <div class="hey">
+                        <h2><span>Hi There, I'm</span></h2>
+                        <h1>Moteen Raza,</h1>
+                        <h2><span>a Web Developer</span></h2>
+                    </div>
+                    <img class="memoji" src="./assets/memoji.png.png" alt="an apple memoji hiding behind a apple laptop with brown hair and glasses">
                 </div>
-                <img class="memoji" src="./assets/memoji.png.png" alt="">
-            </div>
-                
             </div>
             
 
-        </section>
+        </section> 
+        <!--End of Section One-->
 
         <section id="about" class="sectionTwo">
+            <!--Beginning of Section Two-->
             <div class="aboutMe" data-aos="zoom-in" data-aos-duration="1000">
                 <div class="square">
                     <p class="details">const <span class="object">aboutMe</span> {<br>
@@ -85,7 +88,7 @@
             
                 </div>
 
-                <div class="getToKnowMe" >
+                <div class="getToKnowMe">
                     <h2 class="info">About Me</h2>
                     <p class="paragraph">
                         I enjoy analyzing complex problems and working through ambiguous situations where I can make 
@@ -99,12 +102,14 @@
             </div>
 
         </section>
+        <!--End of Section Two-->
 
         <section class="sectionThree" id="skills">
+            <!--Beginning of Section Three-->
             
             <div data-aos="fade-up" data-aos-duration="1000">
                 <h2 class="skills">Skills</h2>
-                <ul class="skillContainer">
+                <ul class="skillContainer wrapper">
                     <li><i class="devicon-html5-plain-wordmark colored"></i></li>
                     <li><i class="devicon-css3-plain-wordmark colored"></i></li>
                     <li><i class="devicon-sass-original colored"></i></li>
@@ -115,13 +120,15 @@
                 </ul>
             </div>
         </section>
+        <!--End of Section three-->
 
         <section class="sectionFour" id="projects">
+            <!--Beginning of Section Four-->
             <div data-aos="slide-down" data-aos-duration="1200" >
                 <h2>Projects</h2>
             </div>
             <div class="projectOneContainer" data-aos="slide-left" data-aos-duration="1200">
-                <img src="./assets/sophieProject2.png" alt="">
+                <img src="./assets/sophieProject2.png" alt="screenShot picture of a orange background website with a young girl in it">
                 <div class="allAboutSophie">
                     <h3>It's All About Sophie</h3>
                     <p>A multi-page website created utilizing css techniques such as flex-box and Sass to keep codes organized. This page is fully responsive.</p>
@@ -138,9 +145,9 @@
                     </div>
                 </div>
             </div>
+            
 
             <div class="projectTwoContainer" data-aos="slide-right" data-aos-duration="1200">
-                
                 <div class="dadJokes">
                     <h3>Har! Har! Dad Jokes</h3>
                     <p>Dad jokes that never get old. A dad joke website where it generates random jokes that fetches from 
@@ -153,22 +160,20 @@
                         <li><i class="devicon-css3-plain-wordmark"></i></li>
                         <li><i class="devicon-sass-original"></i></li>
                         <li><i class="devicon-javascript-plain colored"></i></li>
-                        
                     </div>
-                    
                 </div>
-                <img src="./assets/dadJokes.png" alt="">  
+                <img src="./assets/dadJokes.png" alt="screen shot image of a website that has a dad joke and a dad gif displayed">  
         </section>
+        <!--End of Section Four-->
 
         <section class="sectionFive" id="contact">
+            <!--Beginning of Section Five-->
             <div data-aos="fade-in" data-aos-duration="2000">
                 <h2>Let's get in touch</h2>
             </div>
-            <form action="" class="submitForm" name="submitForm">
-        
+            <form action="" class="submitForm" name="submitForm"> <!--Beginning Form element-->
                 <div class="flexForm">
                     <div class="textContainer" data-aos="flip-down" data-aos-duration="2000">
-                    
                         <label for="name" class="sr-only">Name</label>
                         <input type="text" id="name" placeholder="Name" />
 					    <label for="emailAddress" class="sr-only">Email address </label>
@@ -177,12 +182,8 @@
 						    id="emailAddress"
 						    placeholder="Email address"
 						    />
-        
-                    
                     </div>
-
                     <div class="getInTouch" data-aos="flip-right" data-aos-duration="2000">
-
                         <p >If you have any questions about me or about my pojects, feel 
                             free to contact me using the form to your left or you can email me personally at
                             <a href="mailto:moteenraza@gmail.com">moteenraza@gmail.com</a>. I also enjoy talking
@@ -193,19 +194,19 @@
 
                 
                 <div class="flexCommentForm">
-                <div class="commentForm" data-aos="flip-up" data-aos-duration="2000">
+                    <div class="commentForm" data-aos="flip-up" data-aos-duration="2000">
                     <!-- Beginning of commentForm -->
-                    <label for="comment" class="sr-only">Comment</label>
-                    <textarea
-                        name="comment"
-                        id="comment"
-                        cols="30"
-                        rows="10"
-                        placeholder="Comment"
-                    ></textarea>
-                    <button class="submitButton">Submit</button>
-                </div>
-                <!-- End of commentForm -->
+                        <label for="comment" class="sr-only">Comment</label>
+                        <textarea
+                            name="comment"
+                            id="comment"
+                            cols="30"
+                            rows="10"
+                            placeholder="Comment"
+                        ></textarea>
+                        <button class="submitButton">Submit</button>
+                    </div>
+                <!-- End of comment Form -->
 
                 <div class="followMe" data-aos="zoom-in-down" data-aos-duration="2000">
                     <h4>Follow me Below 👇</h4>
@@ -217,22 +218,25 @@
                 </div>
             </div>
                 
-            </form>
+            </form><!--End of Form Element-->
 
             <h3><a href="#home">Back to the top ^ </a></h3>
         </section>
+        <!--End of Section Five-->
     </main>
+    <!--End of Main-->
 
-    <footer>
-    <h4>Made By Moteen Raza 2022</h4>
-    </footer>
+    <footer> <!--Beginning of Footer-->
+        <h4>Made By Moteen Raza 2022</h4>
+    </footer> <!--End of Footer-->
 
     
 </body>
+<!--End of body-->
 
-<script src="./script.js">
+<script src="./script.js"> // Javascript link
 
 </script>
 
-<script src="bower_components/aos/dist/aos.js"></script>
+<script src="bower_components/aos/dist/aos.js">//library link</script>
 </html>
