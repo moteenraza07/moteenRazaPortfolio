@@ -420,46 +420,24 @@ header .mainMenu a {
   margin: 0;
   background-color: #fefae0;
 }
-.sectionTwo .aboutMe {
-  display: flex;
-  justify-content: space-between;
-}
-.sectionTwo .aboutMe .square {
-  margin-top: 20px;
-  margin-right: 100px;
-  background-color: #656d4a;
-  transform: rotate(25deg);
-  border-radius: 20%;
-  height: 410px;
-  width: 1770px;
-}
-.sectionTwo .aboutMe .square .details {
-  margin: 0;
-  transform: rotate(-25deg);
-  text-align: start;
-  padding-top: 30px;
-  padding-left: 60px;
-  color: white;
-  font-weight: 700;
-  font-size: 1.2rem;
-  line-height: 50px;
-}
-.sectionTwo .aboutMe .square .object, .sectionTwo .aboutMe .square .string, .sectionTwo .aboutMe .square .integer {
-  color: #121113;
-  font-weight: 700;
-}
 .sectionTwo .aboutMe .getToKnowMe {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sectionTwo .aboutMe .getToKnowMe img {
+  background-color: black;
+  height: 180px;
+  width: 150px;
+  border-radius: 40%;
+  margin-left: 30px;
 }
 .sectionTwo .aboutMe .getToKnowMe .info {
   font-family: "Arimo", sans-serif;
   color: #121113;
-  text-align: start;
-  margin-left: 400px;
 }
 .sectionTwo .aboutMe .getToKnowMe .paragraph {
-  width: 85%;
   font-size: 1.1rem;
   padding-bottom: 30px;
 }
@@ -483,7 +461,7 @@ header .mainMenu a {
 }
 .sectionThree .skillContainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 5rem;
 }
 .sectionThree .gitHub {
@@ -499,20 +477,23 @@ header .mainMenu a {
   text-align: center;
   color: #121113;
 }
+.sectionFour .projectOne {
+  background: #606c38;
+  margin-top: 50px;
+}
 .sectionFour .projectOneContainer {
   display: flex;
-  margin-top: 50px;
-  background: #606c38;
+  justify-content: space-around;
+  padding: 60px 0px;
 }
 .sectionFour img {
-  height: 300px;
+  height: 350px;
   width: 550px;
-  margin: 30px 150px;
   border: 10px solid black;
   border-radius: 25px;
 }
 .sectionFour .allAboutSophie {
-  width: 30%;
+  width: 40%;
 }
 .sectionFour .allAboutSophie h3 {
   color: white;
@@ -565,23 +546,26 @@ header .mainMenu a {
 .sectionFour .madeUsingIcons li i {
   font-size: 50px;
 }
-.sectionFour .projectTwoContainer {
+.sectionFour .projectTwo {
   background-color: #bc4749;
-  display: flex;
 }
-.sectionFour .projectTwoContainer .dadJokes {
-  width: 30%;
-  margin-left: 200px;
+.sectionFour .projectTwo .projectTwoContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 0px;
+}
+.sectionFour .projectTwo .dadJokes {
+  width: 40%;
   margin-top: 50px;
 }
-.sectionFour .projectTwoContainer .dadJokes h3 {
+.sectionFour .projectTwo .dadJokes h3 {
   color: white;
   font-family: "Arimo", sans-serif;
   font-size: 2rem;
   margin-top: 5px;
   margin-bottom: 0px;
 }
-.sectionFour .projectTwoContainer img {
+.sectionFour .projectTwo img {
   -o-object-fit: fill;
      object-fit: fill;
   height: 400px;
@@ -606,36 +590,30 @@ header .mainMenu a {
   flex-direction: column;
   justify-content: space-around;
   margin-top: 50px;
-  width: 20%;
-  margin-left: 300px;
+  width: 30%;
 }
 .sectionFive .getInTouch {
-  width: 40%;
+  width: 45%;
   margin-top: 50px;
   line-height: 32px;
 }
 .sectionFive #name {
-  margin-bottom: 10px;
   height: 45px;
   border: 2px solid #121113;
   font-family: "Source Code Pro", monospace;
 }
 .sectionFive #emailAddress {
-  margin-bottom: 10px;
   height: 45px;
   border: 2px solid #121113;
   font-family: "Source Code Pro", monospace;
 }
 .sectionFive .flexCommentForm {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .sectionFive .commentForm {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  width: 25%;
-  margin-left: 370px;
   align-items: center;
 }
 .sectionFive .commentForm #comment {
@@ -664,17 +642,17 @@ header .mainMenu a {
 }
 .sectionFive .followMe {
   display: flex;
-  width: 40%;
   flex-direction: column;
   margin-top: 60px;
+  width: 45%;
 }
 .sectionFive .followMe h4 {
   font-size: 2rem;
 }
 .sectionFive .followIcons {
   display: flex;
-  justify-content: space-around;
-  margin-right: 370px;
+  justify-content: space-between;
+  width: 85%;
 }
 .sectionFive .followIcons li {
   list-style: none;

@@ -5,57 +5,31 @@
     background-color: #fefae0;
 
     .aboutMe {
-        display: flex;
-        justify-content: space-between;
 
-    .square {
-        margin-top: 20px;
-        margin-right: 100px;
-        background-color: #656d4a;
-        transform: rotate(25deg);
-        border-radius: 20%;
-        height: 410px;
-        width: 1770px;
-        
 
-        .details {
-            margin: 0;
-            transform: rotate(-25deg);
-            text-align: start;
-            padding-top: 30px;
-            padding-left: 60px;
-            color: $secondary;
-            font-weight: 700;
-            font-size: 1.2rem;
-            line-height: 50px;
-            
-        }
-
-        .object, .string, .integer {
-            color: $primary;
-            font-weight: 700;
-        }
-
-    }
-
-    .getToKnowMe {
+        .getToKnowMe {
 
         display: flex;
-        flex-direction: column;
-       
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+         
+        img {
+            background-color: black;
+            height: 180px;
+            width: 150px;
+            border-radius: 40%;
+            margin-left: 30px;
+        }
         
         
 
         .info {
             font-family:$primaryFont;
             color: $primary;
-            text-align: start;
-            margin-left: 400px;
-            
-            }
+        }
 
         .paragraph {
-                width: 85%;
                 font-size: 1.1rem;
                 padding-bottom: 30px;
                 
