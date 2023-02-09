@@ -394,14 +394,7 @@ header .mainMenu a {
   border-left: 2px solid white;
   left: 0;
   visibility: visible;
-  -webkit-animation: typing 3.5s steps(25) infinite;
-          animation: typing 3.5s steps(25) infinite;
-}
-@-webkit-keyframes typing {
-  100% {
-    left: 100%;
-    margin: 0 -35px 0 35px;
-  }
+  animation: typing 3.5s steps(25) infinite;
 }
 @keyframes typing {
   100% {
@@ -450,19 +443,54 @@ header .mainMenu a {
   color: white;
   text-align: center;
 }
-.sectionThree .skillShow {
-  transform: translateY(100px);
-  opacity: 0;
-  transition: 2s all ease;
-}
-.sectionThree .skillShow.active {
-  transform: translateY(0);
-  opacity: 1;
-}
 .sectionThree .skillContainer {
   display: flex;
   justify-content: space-between;
   font-size: 5rem;
+}
+.sectionThree .icon {
+  align-items: center;
+  padding: 0px;
+  margin: 0;
+}
+.sectionThree .icon .skillOne, .sectionThree .icon .skillTwo, .sectionThree .icon .skillThree, .sectionThree .icon .skillFour, .sectionThree .icon .skillFive, .sectionThree .icon .skillSix, .sectionThree .icon .skillSeven {
+  font-size: 1.5rem;
+  color: #121113;
+}
+.sectionThree .icon .skillOne:hover, .sectionThree .icon .skillTwo:hover, .sectionThree .icon .skillThree:hover, .sectionThree .icon .skillFour:hover, .sectionThree .icon .skillFive:hover, .sectionThree .icon .skillSix:hover, .sectionThree .icon .skillSeven:hover {
+  color: black;
+  font-size: 1.6rem;
+  transition: all 0.7s ease-out;
+}
+.sectionThree .icon .skillOne {
+  padding-left: 5px;
+  background-color: orangered;
+}
+.sectionThree .icon .skillTwo {
+  padding-left: 22px;
+  background-color: rgb(39, 164, 236);
+}
+.sectionThree .icon .skillThree {
+  padding-left: 10px;
+  background-color: plum;
+}
+.sectionThree .icon .javaScript {
+  padding-left: 40px;
+}
+.sectionThree .icon .skillFour {
+  background-color: rgb(251, 247, 8);
+}
+.sectionThree .icon .skillFive {
+  background-color: skyblue;
+}
+.sectionThree .icon .skillSix {
+  background-color: #fefae0;
+}
+.sectionThree .icon .skillSeven {
+  background-color: orange;
+}
+.sectionThree .icon .fireBase {
+  padding-left: 20px;
 }
 .sectionThree .gitHub {
   color: #fefae0;
@@ -678,4 +706,151 @@ footer h4 {
   padding: 20px;
   color: white;
   text-align: center;
+}
+
+@media (max-width: 1409px) {
+  .introduction .box1, .introduction .box2, .introduction .box3 {
+    height: 80px;
+    width: 80px;
+  }
+  .box3 {
+    top: 300px;
+  }
+  h2 {
+    font-size: 3.5rem;
+  }
+  h1 {
+    font-size: 4.5rem;
+  }
+}
+@media (max-width: 1336px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 1155px) {
+  .introduction .box2 {
+    left: 600px;
+  }
+  h2:hover span::after {
+    display: none;
+  }
+}
+@media (max-width: 1120px) {
+  .introduction .hey {
+    margin-top: 70px;
+  }
+  .introduction .hey h2 {
+    font-size: 3rem;
+  }
+  .introduction .hey h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 1088px) {
+  .sectionFour .allAboutSophie {
+    margin-left: 30px;
+  }
+  .sectionFour .allAboutSophie h3 {
+    font-size: 1.7rem;
+  }
+  .dadJokes h3 {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 1053px) {
+  .introduction .hey h2 {
+    font-size: 2rem;
+  }
+  .introduction .box3 {
+    left: 200px;
+  }
+  .sectionFive .followMe h4 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 1050px) {
+  .sectionFour img {
+    width: 450px;
+  }
+  .sectionFour .projectTwo img {
+    width: 400px;
+  }
+  .sectionFive .textContainer {
+    width: 40%;
+  }
+}
+@media (max-width: 1026px) {
+  .introduction .box3 {
+    left: 250px;
+    top: 350px;
+  }
+  .introduction .memoji {
+    height: 420px;
+    width: 450px;
+  }
+  .sectionFour img {
+    height: 350px;
+    width: 450px;
+  }
+  .sectionFour .allAboutSophie h3 {
+    font-size: 1.2rem;
+  }
+  .sectionFour .projectTwo .dadJokes h3 {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 1007px) {
+  .introduction .box3 {
+    top: 400px;
+  }
+}
+@media (max-width: 955px) {
+  .sectionFour .clickHere {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 919px) {
+  .introduction .box1, .introduction .box2, .introduction .box3 {
+    display: none;
+  }
+  .introduction .memoji {
+    height: 380px;
+    width: 450px;
+  }
+  .sectionThree .skillContainer {
+    font-size: 3.5rem;
+  }
+  .sectionFour .clickHere {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 856px) {
+  .introduction .memoji {
+    height: 350px;
+    width: 350px;
+  }
+}
+@media (max-width: 835px) {
+  .sectionTwo .aboutMe .getToKnowMe img {
+    height: 150px;
+    width: 120px;
+  }
+  .sectionFive .flexForm {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sectionFive .textContainer {
+    width: 60%;
+  }
+  .sectionFive .getInTouch {
+    width: 60%;
+  }
+  .sectionFive .flexCommentForm {
+    flex-direction: column;
+  }
+  .sectionFive .followMe {
+    width: 100%;
+    align-items: center;
+  }
 }/*# sourceMappingURL=styles.css.map */

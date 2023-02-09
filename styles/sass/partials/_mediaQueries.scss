@@ -1,0 +1,249 @@
+@media (max-width: 1409px) {
+    
+    .introduction {
+
+        .box1, .box2, .box3 {
+            height: 80px;
+            width: 80px;
+        }
+
+    }
+    
+    .box3 {
+        top: 300px;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+
+    }
+
+    h1 {
+        font-size: 4.5rem;
+    }
+}
+
+@media (max-width: 1336px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 1155px) {
+
+    .introduction {
+        .box2 {
+            left: 600px;
+        }
+    }
+
+    h2:hover span::after {
+       display: none;
+    }
+}
+
+@media (max-width: 1120px) {
+    .introduction {
+        .hey {
+
+            margin-top: 70px;
+            
+            h2 {
+                font-size: 3rem;
+            }
+
+            h1 {
+                font-size: 3rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 1088px) {
+    .sectionFour {
+        .allAboutSophie {
+            margin-left: 30px;
+
+            h3 {
+                font-size: 1.7rem;
+            }
+        }
+    }
+
+    .dadJokes {
+
+        h3 {
+            font-size: 1.7rem;
+        }
+    }
+}
+
+@media (max-width: 1053px) {
+    .introduction {
+        
+        .hey {
+            
+            h2 {
+                font-size: 2rem;
+            }
+        }
+
+        .box3 {
+            left: 200px;
+        }
+    }
+
+    .sectionFive {
+        .followMe {
+            h4 {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1050px) {
+
+    .sectionFour {
+        img {
+            width: 450px;
+        }
+
+        .projectTwo {
+            img {
+                width: 400px;
+            }
+        }
+    }
+    .sectionFive {
+        .textContainer {
+            width: 40%;
+        }
+    }
+}
+
+@media (max-width: 1026px) {
+    .introduction {
+        .box3 {
+            left: 250px;
+            top: 350px;
+        }
+
+        .memoji {
+            height: 420px;
+            width: 450px;
+        }
+    }
+
+    .sectionFour {
+
+        img {
+            height: 350px;
+            width: 450px;
+        }
+        .allAboutSophie {
+            h3 {
+                font-size: 1.2rem;
+            }
+        }
+
+        .projectTwo {
+            .dadJokes {
+                h3 {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
+
+}
+
+@media (max-width: 1007px) {
+    .introduction {
+        .box3 {
+            top: 400px;
+        }
+    }
+}
+
+@media (max-width: 955px) {
+    .sectionFour {
+        .clickHere {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+@media (max-width: 919px) {
+    .introduction {
+
+        .box1, .box2, .box3 {
+            display: none;
+        }
+
+        .memoji {
+            height: 380px;
+            width: 450px;
+        }
+        
+    }
+
+    .sectionThree {
+        .skillContainer {
+            font-size: 3.5rem;
+        }
+    }
+
+    .sectionFour {
+        .clickHere {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media (max-width: 856px) {
+    .introduction {
+        .memoji {
+            height: 350px;
+            width: 350px;
+        }
+    }
+}
+
+@media (max-width: 835px) {
+    .sectionTwo {
+       .aboutMe {
+        .getToKnowMe {
+            img {
+                height: 150px;
+                width: 120px;
+            }
+        }
+       } 
+    }
+
+    .sectionFive {
+
+        .flexForm {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .textContainer {
+            width: 60%;
+        };
+
+        .getInTouch {
+            width: 60%;
+        }
+        .flexCommentForm {
+            flex-direction: column;
+        }
+        .followMe {
+            width: 100%;
+            align-items: center;
+        }
+    }
+}

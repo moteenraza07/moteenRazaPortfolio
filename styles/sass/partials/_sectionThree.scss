@@ -10,16 +10,16 @@
     text-align: center;
    }
 
-   .skillShow {
-      transform: translateY(100px);
-      opacity: 0;
-      transition: 2s all ease;
-   }
+   // .skillShow {
+   //    transform: translateY(100px);
+   //    opacity: 0;
+   //    transition: 2s all ease;
+   // }
 
-   .skillShow.active {
-      transform: translateY(0);
-      opacity: 1;
-   }
+   // .skillShow.active {
+   //    transform: translateY(0);
+   //    opacity: 1;
+   // }
 
    .skillContainer {
     display: flex;
@@ -27,6 +27,67 @@
     font-size: 5rem;
     
    };
+
+   .icon {
+      align-items: center;
+      padding: 0px;
+      margin: 0;
+      
+      .skillOne, .skillTwo, .skillThree, .skillFour, .skillFive, .skillSix, .skillSeven {
+         font-size: 1.5rem;
+         color: $primary;
+      }
+
+      .skillOne:hover, .skillTwo:hover, .skillThree:hover, .skillFour:hover, .skillFive:hover, .skillSix:hover, .skillSeven:hover {
+         color: black;
+         font-size: 1.6rem;
+         transition: all 0.7s ease-out;
+        }
+
+      .skillOne {
+         padding-left: 5px;
+         background-color: orangered;
+        }
+
+        .skillTwo {
+         padding-left: 22px;
+         background-color: rgb(39, 164, 236);
+        }
+
+        .skillThree {
+         padding-left: 10px;
+         background-color: plum;
+        }
+
+        .javaScript {
+         padding-left: 40px;
+        }
+
+        .skillFour {
+         background-color: rgb(251, 247, 8);
+        }
+
+        .skillFive {
+         background-color: skyblue;
+        }
+
+        .skillSix {
+         background-color: #fefae0;
+        }
+
+        .skillSeven {
+         background-color: orange;
+        }
+
+        .fireBase {
+         padding-left: 20px;
+        }
+
+
+
+   }
+
+ 
 
    .gitHub {
     color: #fefae0;
