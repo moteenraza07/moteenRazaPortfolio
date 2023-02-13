@@ -305,7 +305,7 @@ p {
 }
 
 .wrapper {
-  max-width: 1280px;
+  max-width: 1480px;
   width: 90%;
   margin: 0 auto;
 }
@@ -333,6 +333,9 @@ header .mainMenu {
 header .mainMenu a {
   color: white;
   font-size: 1.5rem;
+}
+header .mainMenu a:hover {
+  border-bottom: 4px solid white;
 }
 
 .introduction {
@@ -598,6 +601,24 @@ header .mainMenu a {
      object-fit: fill;
   height: 400px;
   width: 500px;
+}
+.sectionFour .projectThree {
+  background-color: rgb(59, 193, 246);
+}
+.sectionFour .projectThree .projectThreeContainer {
+  display: flex;
+  padding: 60px 0px;
+  justify-content: space-around;
+}
+.sectionFour .projectThree .weatherApp {
+  width: 40%;
+}
+.sectionFour .projectThree h3 {
+  color: white;
+  font-family: "Arimo", sans-serif;
+  font-size: 2rem;
+  margin-top: 5px;
+  margin-bottom: 0px;
 }
 
 .sectionFive {
