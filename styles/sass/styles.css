@@ -729,6 +729,11 @@ footer h4 {
   text-align: center;
 }
 
+@media (max-width: 1920px) {
+  header .mobileMenu {
+    visibility: hidden;
+  }
+}
 @media (max-width: 1409px) {
   .introduction .box1, .introduction .box2, .introduction .box3 {
     height: 80px;
@@ -769,6 +774,12 @@ footer h4 {
   }
 }
 @media (max-width: 1088px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+  .sectionThree .skillContainer {
+    font-size: 4rem;
+  }
   .sectionFour .allAboutSophie {
     margin-left: 30px;
   }
@@ -822,6 +833,15 @@ footer h4 {
   }
 }
 @media (max-width: 1007px) {
+  .sectionThree .skillContainer {
+    font-size: 3rem;
+  }
+  .sectionThree .icon .skillOne, .sectionThree .icon .skillTwo, .sectionThree .icon .skillThree, .sectionThree .icon .skillFour, .sectionThree .icon .skillFive, .sectionThree .icon .skillSix, .sectionThree .icon .skillSeven {
+    font-size: 1rem;
+  }
+  .sectionThree .icon .skillTwo {
+    padding-right: 15px;
+  }
   .introduction .box3 {
     top: 400px;
   }
@@ -839,6 +859,12 @@ footer h4 {
     height: 380px;
     width: 450px;
   }
+  .sectionTwo .aboutMe .getToKnowMe img {
+    margin-top: 20px;
+  }
+  .sectionTwo .aboutMe .getToKnowMe .paragraph {
+    font-size: 0.8rem;
+  }
   .sectionThree .skillContainer {
     font-size: 3.5rem;
   }
@@ -853,6 +879,15 @@ footer h4 {
   }
 }
 @media (max-width: 835px) {
+  header .mainMenu {
+    display: none;
+  }
+  header .mobileMenu .hamburger {
+    padding-top: 20px;
+    visibility: visible;
+    color: white;
+    font-size: 1.5rem;
+  }
   .sectionTwo .aboutMe .getToKnowMe img {
     height: 150px;
     width: 120px;
