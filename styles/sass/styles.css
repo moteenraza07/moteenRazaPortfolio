@@ -1061,4 +1061,7 @@ footer h4 {
   .sectionFive .textContainer {
     width: 80%;
   }
+  .sectionFive .followMe h4 {
+    font-size: 1.3rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
