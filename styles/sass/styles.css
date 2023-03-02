@@ -305,7 +305,7 @@ p {
 }
 
 .wrapper {
-  max-width: 1480px;
+  max-width: 1280px;
   width: 90%;
   margin: 0 auto;
 }
@@ -882,6 +882,9 @@ footer h4 {
   header .mainMenu {
     display: none;
   }
+  header .mobileMenu .hiddenItems {
+    display: none;
+  }
   header .mobileMenu .hamburger {
     padding-top: 20px;
     visibility: visible;
@@ -908,5 +911,154 @@ footer h4 {
   .sectionFive .followMe {
     width: 100%;
     align-items: center;
+  }
+}
+@media (max-width: 804px) {
+  .sectionThree .skillContainer {
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+  }
+  .sectionThree .skillContainer li .javaScript {
+    margin-right: 40px;
+  }
+  .sectionThree .skillContainer li .fireBase {
+    margin-right: 10px;
+  }
+  .sectionFour img {
+    width: 550px;
+  }
+  .sectionFour .projectOneContainer {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .sectionFour .allAboutSophie {
+    width: 65%;
+    margin-top: 20px;
+    font-size: 1.1rem;
+  }
+  .sectionFour .allAboutSophie .clickHere {
+    margin-left: 40px;
+  }
+  .sectionFour .projectTwoContainer {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .sectionFour .projectTwoContainer img {
+    width: 550px;
+  }
+  .sectionFour .projectTwoContainer .dadJokes {
+    width: 65%;
+    padding-bottom: 25px;
+    font-size: 1.1rem;
+  }
+  .sectionFour .projectTwoContainer .clickHere {
+    margin-left: 40px;
+  }
+  .sectionFour .projectThreeContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sectionFour .projectThreeContainer h3 {
+    font-size: 1.2rem;
+  }
+  .sectionFour .projectThreeContainer .weatherApp {
+    width: 65%;
+    padding-top: 20px;
+  }
+  .sectionFour .projectThreeContainer .clickHere {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 584px) {
+  .introduction .memoji {
+    display: none;
+  }
+  .projectOneContainer img {
+    width: 450px;
+  }
+  .projectOneContainer .allAboutSophie {
+    width: 75%;
+  }
+  .projectOneContainer .clickHere {
+    margin-left: 10px;
+  }
+  .sectionFour .projectTwoContainer img {
+    width: 450px;
+  }
+  .sectionFour .projectTwoContainer .dadJokes {
+    width: 75%;
+  }
+  .sectionFour .projectThreeContainer img {
+    width: 450px;
+  }
+  .sectionFour .projectThreeContainer .weatherApp {
+    width: 75%;
+  }
+}
+@media (max-width: 538px) {
+  .sectionThree .skillContainer {
+    width: 50%;
+  }
+  .sectionFour .madeUsingTitle {
+    width: 70%;
+  }
+  .sectionFour .madeUsingIcons {
+    width: 70%;
+  }
+}
+@media (max-width: 470px) {
+  .sectionFour .madeUsingTitle {
+    margin-left: 20px;
+  }
+  .sectionFour .madeUsingIcons {
+    margin-left: 30px;
+  }
+  .sectionFour .allAboutSophie .clickHere {
+    margin-left: 0px;
+  }
+  .sectionFour .projectTwoContainer .clickHere {
+    margin-left: 0px;
+  }
+  .sectionFour .projectThreeContainer .clickHere {
+    margin-left: 0px;
+  }
+  .sectionFour .projectOneContainer img, .sectionFour .projectTwoContainer img, .sectionFour .projectThreeContainer img {
+    width: 400px;
+  }
+}
+@media (max-width: 320px) {
+  .sectionThree .skillContainer {
+    width: 100%;
+  }
+  .sectionFour .allAboutSophie .clickHere {
+    width: 100%;
+    margin-top: 5px;
+  }
+  .sectionFour .projectTwoContainer .clickHere {
+    width: 100%;
+    margin-top: 5px;
+  }
+  .sectionFour .projectThreeContainer .clickHere {
+    width: 100%;
+    margin-top: 5px;
+  }
+  .sectionFour .projectOneContainer img, .sectionFour .projectTwoContainer img, .sectionFour .projectThreeContainer img {
+    height: 250px;
+    width: 310px;
+  }
+  .sectionFive .commentForm #comment {
+    width: 90%;
+  }
+  .sectionFive .getInTouch {
+    line-height: 25px;
+    width: 80%;
+  }
+  .sectionFive .getInTouch p {
+    font-size: 0.9rem;
+  }
+  .sectionFive .textContainer {
+    width: 80%;
   }
 }/*# sourceMappingURL=styles.css.map */

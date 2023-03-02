@@ -12,24 +12,9 @@
     <style> @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap'); </style>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
-        </style>
-    
+    <style>@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');</style>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-        
-    <style>
-        .material-symbols-outlined {
-          font-variation-settings:
-          'FILL' 0,
-          'wght' 400,
-          'GRAD' 0,
-          'opsz' 48
-        }
-        </style>
-    <link rel="stylesheet" href="./styles/sass/styles.css">
+    <link rel="stylesheet" href="./styles/sass/styles.css" >
 </head>
 <body>
     <a href="#mainContent" class="skipLink">Skip to the main content.</a>
@@ -49,16 +34,18 @@
             </div>
 
             <!--Beginning of mobileMenu-->
-            <div class="wrapper">
-                <ul class="mobileMenu">
-                    <i class="fa-solid fa-bars hamburger"></i>
+            <div class="mobileMenu wrapper">
+                <ul class="navContainer hiddenItems">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    
-              
                 </ul>
+                <!--Buttons for the hamburger menu and the x icon-->
+                <div class="btnContainer">
+                    <button class="mobileButton"><i class="fa-solid fa-bars hamburger"></i></button>
+                    <button class="closeMenuIcon"><i class="fa-solid fa-x"></i></button>
+                </div>
             </div>
             <!--End of mobileMenu-->
         </nav>
@@ -150,10 +137,10 @@
                 </ul>
             </div>
         </section>
-        <!--End of Section three-->
+        <!-- End of Section three -->
 
         <section class="sectionFour" id="projects">
-            <!--Beginning of Section Four-->
+             <!-- Beginning of Section Four -->
             <div data-aos="slide-down" data-aos-duration="1200" >
                 <h2>Projects</h2>
             </div>
@@ -174,8 +161,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            
+            </div> 
+             
 
             <div class="projectTwo" data-aos="slide-right" data-aos-duration="1200">
                 <div class="wrapper projectTwoContainer">
@@ -195,9 +182,9 @@
                     </div>
                     <img src="./assets/dadJokes.png" alt="screen shot image of a website that has a dad joke and a dad gif displayed">
                 </div>
-            </div> 
+            </div>
                 
-            <div class="projectThree" data-aos="slide-left" data-aos-duration="1200">
+             <div class="projectThree" data-aos="slide-left" data-aos-duration="1200">
                 <div class="wrapper projectThreeContainer">
                     <img src="./assets/weatherApp.png" alt="image of weather app that displays date, temperature, daytime Weather, nightime Weather, new weather date, upcoming weather and details on that weather">
                     <div class="weatherApp">

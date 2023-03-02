@@ -274,7 +274,13 @@
             display: none;
         }
 
+
+
         .mobileMenu {
+
+            .hiddenItems {
+                display: none;
+            }
             .hamburger {
                 padding-top: 20px;
                 visibility: visible;
@@ -319,3 +325,246 @@
     }
 }
 
+
+@media (max-width: 804px) {
+    .sectionThree {
+        .skillContainer {
+            flex-direction: column;
+            text-align: center;
+            width: 30%;
+
+            li {
+                .javaScript {
+                    margin-right: 40px;
+                }
+
+                .fireBase {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    .sectionFour {
+        img {
+            width: 550px;
+        }
+        .projectOneContainer {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .allAboutSophie {
+            width: 65%;
+            margin-top: 20px;
+            font-size: 1.1rem;
+
+            .clickHere {
+                margin-left: 40px;
+            }
+
+        }
+
+
+        .projectTwoContainer {
+            flex-direction: column-reverse;
+            align-items: center;
+            
+                img {
+                 width: 550px;
+                }
+
+                .dadJokes {
+                    width: 65%;
+                    padding-bottom: 25px;
+                    font-size: 1.1rem;
+
+                }
+
+                .clickHere {
+                    margin-left: 40px;
+                }
+            }
+
+            .projectThreeContainer {
+                flex-direction: column;
+                align-items: center;
+
+                h3 {
+                    font-size: 1.2rem;
+                }
+
+                .weatherApp {
+                    width: 65%;
+                    padding-top: 20px;
+                }
+
+                .clickHere {
+                    margin-left: 30px;
+                }
+            }
+        
+    }
+
+    
+}
+
+@media (max-width: 584px) {
+    .introduction {
+        .memoji {
+            display: none;
+        }
+    }
+
+    .projectOneContainer {
+        img {
+            width: 450px;
+        }
+
+        .allAboutSophie {
+            width: 75%;
+        }
+
+        .clickHere {
+            margin-left: 10px;
+        }
+    }
+
+    .sectionFour {
+        .projectTwoContainer {
+            img {
+                width: 450px;
+            }
+
+            .dadJokes {
+                width: 75%;
+            }
+        }
+
+        .projectThreeContainer {
+            img {
+                width: 450px;
+            }
+
+            .weatherApp {
+                width: 75%;
+            }
+        }
+    }
+   
+}
+
+@media (max-width: 538px) {
+    .sectionThree {
+        .skillContainer {
+            width: 50%;
+        }
+    }
+
+    .sectionFour {
+        .madeUsingTitle {
+            width: 70%;
+        }
+
+        .madeUsingIcons {
+            width: 70%;
+        }
+    }
+}
+
+@media (max-width: 470px) {
+    .sectionFour {
+        .madeUsingTitle {
+            margin-left: 20px;
+        }
+
+        .madeUsingIcons {
+            margin-left: 30px;
+        }
+
+        .allAboutSophie {
+            .clickHere {
+                margin-left: 0px;
+            }
+        }
+
+        .projectTwoContainer {
+            .clickHere {
+                margin-left: 0px;
+            }
+        }
+
+        .projectThreeContainer {
+            .clickHere {
+                margin-left: 0px;
+            }
+        }
+        .projectOneContainer, .projectTwoContainer, .projectThreeContainer {
+            img {
+                width: 400px;
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .sectionThree {
+        .skillContainer {
+            width: 100%;
+        }
+    }
+
+    .sectionFour {
+        .allAboutSophie {
+            .clickHere {
+                width: 100%;
+                margin-top: 5px;
+            }
+        }
+
+        .projectTwoContainer {
+            .clickHere {
+                width: 100%;
+                margin-top: 5px;
+            }
+        }
+
+        .projectThreeContainer {
+            .clickHere {
+                width: 100%;
+                margin-top: 5px;
+            }
+        }
+
+        .projectOneContainer, .projectTwoContainer, .projectThreeContainer {
+            img {
+                height: 250px;
+                width: 310px;
+            }
+        }
+    }
+
+    .sectionFive {
+        .commentForm {
+            #comment {
+                width: 90%;
+            }
+        }
+
+        .getInTouch {
+            line-height: 25px;
+            width: 80%;
+            p {
+                font-size: 0.9rem;
+
+            }
+        }
+
+        .textContainer {
+            width: 80%;
+        }
+    }
+
+    
+}
